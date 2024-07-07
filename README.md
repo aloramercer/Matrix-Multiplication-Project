@@ -19,9 +19,8 @@ This program performs a custom matrix operation \( A = B \unicode{x2218} C \) wh
 
 3. **Output Matrix Size**:
    - The size of the output matrix \( A \) is calculated as:
-     \[
-     \text{output\_row\_size} = (\text{input\_row\_size} - \text{core\_row\_size}) + 1
-     \]
+     
+     \[ \text{output\_row\_size} = (\text{input\_row\_size} - \text{core\_row\_size}) + 1 \]
 
 ## Requirements
 - **Dynamic Allocation**: Matrices must be declared dynamically.
